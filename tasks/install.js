@@ -1,6 +1,5 @@
 var spawn = require('child_process').spawn;
 
-
 /** @param {Object} grunt Grunt. */
 module.exports = function(grunt) {
   grunt.registerTask('install', 'Run `npm install` in a dir.', function() {
